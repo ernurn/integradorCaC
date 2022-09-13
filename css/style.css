@@ -1,7 +1,11 @@
-header {
-    position: fixed;
-}
-
 .navcolor {
     background-color: #353a40;
+}
+
+.tickets {
+    color: rgb(23, 167, 23);
+}
+
+.tickets:hover{
+    color: rgb(27, 225, 27);
 }
