@@ -1,3 +1,6 @@
+header{
+    position: sticky;
+}
 .navcolor {
     background-color: #353a40;
 }
