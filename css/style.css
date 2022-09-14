@@ -1,4 +1,4 @@
-header{
+header {
     position: sticky;
 }
 .navcolor {
@@ -11,4 +11,16 @@ header{
 
 .tickets:hover{
     color: rgb(27, 225, 27);
+}
+#portada {
+    position: relative;
+}
+#cuadro {
+    position: absolute;
+    bottom: 25%;
+    right: 1%;
+    max-width: 540px;
+    height: auto;
+    color: azure;
+    text-align: justify;
 }
