@@ -15,6 +15,10 @@ header {
 #portada {
     position: relative;
 }
+
+.carouselImg {
+    filter: brightness(0.5);
+}
 #cuadro {
     position: absolute;
     bottom: 25%;
@@ -24,3 +28,24 @@ header {
     color: azure;
     text-align: justify;
 }
+
+#oradores {
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+#oradores p {
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 0%;
+    font-size: small;
+    color: gray;
+}
+
+#oradores h3{
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+
