@@ -21,11 +21,11 @@ header {
 }
 #cuadro {
     position: absolute;
-    bottom: 25%;
-    right: 1%;
-    max-width: 540px;
+    bottom: 20%;
+    right: 0.5%;
+    /*max-width: 540px;*/
     height: auto;
-    color: azure;
+    color: white;
     text-align: justify;
 }
 
@@ -47,5 +47,10 @@ header {
     font-size: xx-large;
 }
 
+footer {
+    background-color: #353a40;
+    color: white;
+    text-align: center;
+}
 
 
