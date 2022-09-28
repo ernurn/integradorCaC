@@ -18,7 +18,7 @@ header {
 
 .carouselImg {
     filter: brightness(0.5);
-    max-height: 95vh;
+    max-height: 90vh;
 }
 #cuadro {
     position: absolute;
@@ -47,6 +47,8 @@ header {
     text-align: center;
     font-size: xx-large;
 }
+
+
 
 footer {
     background-color: #353a40;
