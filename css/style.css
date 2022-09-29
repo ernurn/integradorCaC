@@ -24,7 +24,6 @@ header {
     position: absolute;
     bottom: 20%;
     right: 0.5%;
-    /*max-width: 540px;*/
     height: auto;
     color: white;
     text-align: justify;
@@ -48,6 +47,13 @@ header {
     font-size: xx-large;
 }
 
+#conoce {
+    background-color: #353a40;
+}
+
+.titulo {
+    text-align: center;
+}
 
 
 footer {
