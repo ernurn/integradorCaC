@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark navcolor">
             <div class="container-fluid">
-                <a class="navbar-brand mx-5" href="#portada"><img src="img/codoacodo.png" alt="Logo" style="width:80px;"
+                <a class="navbar-brand mx-5" href="#"><img src="img/codoacodo.png" alt="Logo" style="width:80px;"
                         class="rounded-pill">Conf Bs As</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse justify-content-center justify-content-sm-end" id="mynavbar">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#portada">La Conferencia</a>
+                            <a class="nav-link active" href="#">La Conferencia</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#oradores">Los oradores</a>
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="#formulario">Conviértete en orador</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link tickets" href="comprar-tickets.html">Comprar tickets</a>
+                            <a class="nav-link tickets" href="#">Comprar tickets</a>
                         </li>
                     </ul>
                 </div>
@@ -82,8 +82,8 @@
                     miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos
                     para ti. Te esperamos!
                 </p>
-                <a class="btn btn-outline-light" href="#">Quiero ser orador</a>
-                <a href="comprar-tickets.html" class="btn btn-success">Comprar Ticket</a>
+                <a class="btn btn-outline-light" href="#formulario">Quiero ser orador</a>
+                <a href="#" class="btn btn-success">Comprar Ticket</a>
             </div>
         </div>
 
@@ -160,9 +160,9 @@
         </div>
         <!-- formulario -->
         <div id="formulario" class="container mb-3">
-            <div class="titulo mb-2">
+            <div class="tituloform mb-2">
                 <span>Conviertete en un</span>
-                <h3>Orador</h3>
+                <h3>ORADOR</h3>
                 <span>Anotáte como orador para dar una <abbr
                         title="Son charlas de cinco minutos exactos donde el orador tiene 20 diapositivas que avanzan automáticamente cada 15 segundos para contar una idea, una historia o una visión.">charla
                         ignite</abbr>. Cuéntanos de qué querés hablar!</span>
@@ -182,9 +182,12 @@
                             aria-label="¿Sobre qué quieres hablar?" cols="30" rows="10"></textarea>
                         <span>Recuerda incluir un titulo para tu charla.</span>
                     </div>
-                    <button type="submit" class="btn mb-3" style="width: 100%; background-color: #98ca50; color: white">
-                        Enviar
-                    </button>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-outline-success btn-enviar">
+                            Enviar
+                        </button>
+                    </div>
+
                 </div>
         </div>
         </form>
@@ -192,7 +195,31 @@
     </main>
 
     <footer>
-        <p>Hola soy el footer</p>
+        <nav class="navbar navbar-expand-md navcolor justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link links" href="#">Preguntas frecuentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links" href="#">Contactános</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links" href="#">Prensa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links" href="#">Conferencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links" href="#">Términos y condiciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links" href="#">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links" href="#">Estudiantes</a>
+                </li>
+            </ul>
+        </nav>
     </footer>
 
     <!-- Script Boostrap -->

@@ -29,6 +29,7 @@ header {
     text-align: justify;
 }
 
+
 #oradores {
     width: 80%;
     margin-bottom: 2%;
@@ -51,15 +52,26 @@ header {
     background-color: #353a40;
 }
 
-.titulo {
+.tituloform {
     text-align: center;
+}
+
+
+.btn-enviar{
+    width:100%;
+    background-color: rgb(23, 167, 23);
+    border: rgb(23, 167, 23);   
+    color: white;
 }
 
 
 footer {
     background-color: #353a40;
+}
+
+
+.links {
     color: white;
-    text-align: center;
 }
 
 
