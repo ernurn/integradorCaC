@@ -8,6 +8,9 @@ header {
 .tickets {
     color: rgb(23, 167, 23);
 }
+.tickets-activ {
+    color: rgb(27, 225, 27);
+}
 
 .tickets:hover{
     color: rgb(27, 225, 27);
@@ -17,7 +20,7 @@ header {
 }
 
 .carouselImg {
-    filter: brightness(0.5);
+    filter: brightness(0.6);
     max-height: 90vh;
 }
 #cuadro {
