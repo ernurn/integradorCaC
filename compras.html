@@ -17,8 +17,8 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark navcolor">
             <div class="container-fluid">
-                <a class="navbar-brand mx-5" href="./index.html"><img src="img/codoacodo.png" alt="Logo" style="width:80px;"
-                        class="rounded-pill">Conf Bs As</a>
+                <a class="navbar-brand mx-5" href="./index.html"><img src="img/codoacodo.png" alt="Logo"
+                        style="width:80px;" class="rounded-pill">Conf Bs As</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -46,7 +46,7 @@
     </header>
 
     <main>
-                
+
         <!-- Tarjetass -->
         <div id="oradores" class="container">
             <p>CONOCÉ A LOS</p>
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- formulario -->
         <div id="formulario" class="container mb-3">
             <div class="tituloform mb-2">
@@ -111,13 +111,28 @@
                         title="Son charlas de cinco minutos exactos donde el orador tiene 20 diapositivas que avanzan automáticamente cada 15 segundos para contar una idea, una historia o una visión.">charla
                         ignite</abbr>. Cuéntanos de qué querés hablar!</span>
             </div>
-            <form>
+            <form action="">
                 <div class="row mb-2">
                     <div class="col-12 col-sm-6 mb-2">
                         <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
                     </div>
-                    <div class="col-12 col-sm-6">
+                    <div class="col-12 col-sm-6 mb-2">
                         <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                    </div>
+                    <div class="col-12">
+                        <input type="email" class="form-control" name="correo" id="correo" placeholder="ejemplo@mail.com">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <label for="">Cantidad</label>
+                        <input type="number" class="form-control" name="cantidad" id="cantidad" value="0" >
+                    </div>
+                    <div class="col-12 col-sm-6 mb-2">
+                        <label for="">Categoría</label>
+                        <select id="categoria" class="form-control" name="categoria">
+                            <option value="e">Estudiante</option>
+                            <option value="t">Trainee</option>
+                            <option value="j">Junior</option>
+                        </select>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -137,7 +152,7 @@
                         <button type="submit" class="btn btn-outline-success btn-enviar">
                             Resumen
                         </button>
-                    </div>    
+                    </div>
                 </div>
         </div>
         </form>
